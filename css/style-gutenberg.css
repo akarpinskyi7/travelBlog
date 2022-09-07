@@ -1,0 +1,75 @@
+@import url( 'http://fonts.googleapis.com/css?family=Montserrat:300,400%7COpen+Sans:400,400i,700%7CMerriweather:400ii?subset=cyrillic' );
+
+.wp-block {
+  max-width: 769px;
+}
+
+body {
+  font-family: "Open Sans", serif;
+  -webkit-font-smoothing: antialiased;
+  color: #343434;
+  font-size: 14px;
+  line-height: 25px;
+  /* margin-bottom: 30px; */
+}
+
+.editor-post-title__input,
+h2, h3, h4, h5 {
+  font-family: "Montserrat", sans-serif;
+  margin-top: 0;
+  color: #000000;
+  font-weight: 300;
+  -webkit-font-smoothing: auto;
+  line-height: 1.5;
+}
+
+.editor-post-title__input{
+  font-size: 26px;
+  line-height: 1.4;
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+}
+h2{
+  font-size: 32px;
+}
+h3{
+  font-size: 28px;
+}
+h4{
+  font-size: 24px;
+}
+h5{
+  font-size: 20px;
+}
+
+.has-drop-cap:not(:focus):first-letter {
+  float: left;
+  color: #c0945c;
+  font-size: 47px;
+  line-height: 48px;
+  padding-right: 5px;
+  font-family: "Montserrat", sans-serif;
+  font-weight: normal;
+  margin-top: 0;
+}
+
+.wp-block-quote {
+  padding: 0 0 0 30px;
+  border-left: 2px solid #eaeaea;
+}
+
+.wp-block-quote p{
+  margin-bottom: 0px;
+}
+
+.wp-block-quote p em {
+  font-size: 18px;
+  line-height: 30px;
+  color: #999999;
+}
+
+.wp-block-quote .wp-block-quote__citation {
+  color: #c0945c;
+  font-size: 13px;
+  font-style: normal; 
+}
